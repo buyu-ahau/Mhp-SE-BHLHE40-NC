@@ -18,8 +18,8 @@ Scripts marked † run on a Linux server (ArchR or pySCENIC environment); all ot
 | `02_Fig2_TF_programs` | Fig. 2, transcription-factor programs | `02a_…`† and `02c_…`† (pySCENIC GRN inference, cisTarget pruning and AUCell); `05_SCENIC_B_…` (Fig. 2b); `06_SCENIC_D_…` (Fig. 2e); `07_infection_DA.R`† (differential gene scores, peaks and chromVAR deviations); `07e_motif_jaspar_bgd.R`† (motif enrichment in differentially accessible regions, Fig. 2c) |
 | `03_Fig3_BHLHE40_knockdown` | Fig. 3, BHLHE40 knockdown | `01_…` (quantitative panels from raw replicate values); `04_…` (flow cytometry plots from .fcs files, Fig. 3h,i); `11_…` (Supplementary Fig. 5) |
 | `04_Fig4_super_enhancers` | Fig. 4, super-enhancers | `00b_…` (pairing of Con and Mhp super-enhancers); `02_d_…` (Fig. 4d); `03_e_…` (Fig. 4e); `04_b_…` (bulk RNA-seq DESeq2, Fig. 4b); `08_g_…` (cell-type attribution by snATAC-seq, Fig. 4g) |
-| `05_Fig5_E2_locus` | Fig. 5, *BHLHE40* locus and enhancer E2 | `01_a_…` (Hi-C loop classes, Fig. 5a); `07_4C_…` (virtual 4C, Fig. 5b); `02_b_…` (locus tracks, Fig. 5c); `05_e_…` (peak-to-gene peaks in E2, Fig. 5f); `09_g_…` (BHLHE40 CUT&Tag at E2, Fig. 5h) |
-| `06_Fig6_E2_CRISPRi` | Fig. 6, E2 CRISPRi | `04_…` (CCK-8, Fig. 6d); `05_…` (apoptosis rates from .fcs files, Fig. 6e); `09_…` and `10_…` (Transwell image segmentation and statistics, Fig. 6f); helpers `_fig6_common_本地.R` and `_transwell_seg_本地.R` |
+| `05_Fig5_E2_locus` | Fig. 5, *BHLHE40* locus and enhancer E2 | `01_a_…` (Hi-C loop classes, Fig. 5a); `07_4C_…` (virtual 4C, Fig. 5b); `02_b_…` (locus tracks, Fig. 5c); `05_e_…` (peak-to-gene peaks in E2, Fig. 5f) |
+| `06_Fig6_E2_CRISPRi` | Fig. 6, E2 CRISPRi | `09_g_…` (BHLHE40 CUT&Tag at E2, Fig. 6a right; plotted in an earlier Fig. 5 layout); `04_…` (CCK-8, Fig. 6d); `05_…` (apoptosis rates from .fcs files, Fig. 6e); `09_…` and `10_…` (Transwell image segmentation and statistics, Fig. 6f); helpers `_fig6_common_本地.R` and `_transwell_seg_本地.R` |
 | `shared` | All | Color palettes, ggplot2 theme and figure-export functions |
 | `config` | All | Path configuration (`paths.R`) |
 
