@@ -1,0 +1,15 @@
+# 本地工作目录与数据文件不入库
+results/
+*.rds
+*.qs
+*.loom
+*.feather
+*.h5
+*.h5ad
+*.arrow
+*.fcs
+*.pzfx
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
