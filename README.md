@@ -1,6 +1,6 @@
-# Mhp-SE-BHLHE40
+# Mhp-SE-BHLHE40-NC
 
-Analysis code for **"An infection-augmented super-enhancer element sustains BHLHE40-dependent responses of porcine macrophages to *Mycoplasma hyopneumoniae*"** (Bu et al.).
+Analysis code for **"An infection-responsive super-enhancer element sustains BHLHE40-dependent macrophage responses to *Mycoplasma hyopneumoniae*"** (Bu et al.).
 
 This repository holds the custom analysis and figure code for the six main figures, one folder per figure. Each folder contains the core scripts for that figure; preview and layout-only scripts are not included. Read alignment, peak calling, super-enhancer calling (ROSE), Hi-C contact-matrix generation and loop calling used standard tools with the parameters given in the Methods.
 
